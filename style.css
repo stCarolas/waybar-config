@@ -1,0 +1,56 @@
+* {
+	font-family: Iosevka Term;
+	font-size: 20px;
+}
+
+#clock,
+#battery,
+#cpu,
+#memory,
+#network,
+#backlight,
+#pulseaudio,
+#tray,
+#temperature,
+#idle_inhibitor {
+  margin-right: 25px;
+  color: white;
+}
+
+window#waybar {
+	background: transparent;
+}
+
+#workspaces button.focused {
+  border-color: #0D0D0D;
+  background-color: white;
+  color: #0D0D0D;
+  font-weight: bold;
+}
+
+#workspaces button {
+  color: #DADADA;
+}
+
+#workspaces button:hover {
+  color: #5D5D5D;
+}
+
+#mode {
+	color: red;
+}
+
+#clock {
+	margin-top: 5px;
+	margin-left: 8px;
+	margin-right: 12px;
+	padding-left: 16px;
+	padding-right: 16px;
+	padding-bottom: 0px;
+	margin-bottom: 4px;
+	border-radius: 26px;
+	transition: none;
+  font-size: 20px;
+	color: #f8f8f2;
+	background: #282a36;
+}
